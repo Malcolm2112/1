@@ -14,7 +14,8 @@ def scan_port(ip, port):
       else: 
         print(f"[-] Port {port} is CLOSED")
 
-  ock.close()
+  
+  sock.close()
     except Exception as e: 
       print(f"Error: {e}") 
 
